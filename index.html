@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Bài Tập JS 6</title>
+  </head>
+  <body>
+    <h1>Bài Tập JS 6</h1>
+    <h2>Bài Tập 1</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài Tập 1</div>
+            <div class="card-body">
+              <div class="form-control">
+                <h4 class="card-title">
+                  Tìm số nguyên dương nhỏ nhất sao cho: 1 + 2 + … + n > 10000
+                </h4>
+                <button id="btnSubmit1" type="button" class="btn btn-primary">
+                  Enter!
+                </button>
+              </div>
+            </div>
+            <div id="footerCard1" class="card-footer text-muted">Kết Quả</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <h2>Bài Tập 2</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài Tập 2</div>
+            <div class="card-body">
+              <div class="form-control">
+                <h4 class="card-title">S(n) = x + x^2 + x^3 +...+ x^n</h4>
+                <input
+                  id="txt_number1"
+                  type="text"
+                  class="form-control"
+                  placeholder="x"
+                />
+                <br />
+                <input
+                  id="txt_number2"
+                  type="text"
+                  class="form-control"
+                  placeholder="n"
+                />
+                <br />
+                <button id="btnSubmit2" type="button" class="btn btn-primary">
+                  Enter!
+                </button>
+              </div>
+            </div>
+            <div id="footerCard2" class="card-footer text-muted">Kết Quả</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <h2>Bài Tập 3</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài Tập 3</div>
+            <div class="card-body">
+              <div class="form-control">
+                <h4 class="card-title">Nhập vào n Tính giai thừa 1*2*...n</h4>
+                <input
+                  id="txt_number3"
+                  type="text"
+                  class="form-control"
+                  placeholder="n"
+                />
+                <br />
+                <button id="btnSubmit3" type="button" class="btn btn-primary">
+                  Enter!
+                </button>
+              </div>
+            </div>
+            <div id="footerCard3" class="card-footer text-muted">Kết Quả</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">Bài Tập 4</div>
+            <div class="card-body">
+              <div class="form-control">
+                <h4 class="card-title">Color Div</h4>
+                <div class="changeColor">Thẻ thứ 1</div>
+                <div class="changeColor">Thẻ thứ 2</div>
+                <div class="changeColor">Thẻ thứ 3</div>
+                <div class="changeColor">Thẻ thứ 4</div>
+                <div class="changeColor">Thẻ thứ 5</div>
+                <div class="changeColor">Thẻ thứ 6</div>
+                <div class="changeColor">Thẻ thứ 7</div>
+                <div class="changeColor">Thẻ thứ 8</div>
+                <div class="changeColor">Thẻ thứ 9</div>
+                <div class="changeColor">Thẻ thứ 10</div>
+                <br />
+                <button onclick="change_backgroud()" id="btnSubmit4" type="button" class="btn btn-primary">
+                  Enter!
+                </button>
+              </div>
+            </div>
+            <div id="footerCard4" class="card-footer text-muted">Kết Quả</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
